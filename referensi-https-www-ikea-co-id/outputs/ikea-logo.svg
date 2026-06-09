@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 282" role="img" aria-label="IKEA">
+  <rect width="720" height="282" fill="#0058a3"/>
+  <ellipse cx="360" cy="141" rx="346" ry="127" fill="#ffdb00"/>
+  <g fill="#0058a3">
+    <path d="M72 90h68v102H72z"/>
+    <path d="M173 90h62v102h-62z"/>
+    <path d="M235 141l60-51h80l-68 51 75 51h-86z"/>
+    <path d="M379 90h91v29h-58v23h58v28h-58v22h58v0h-91z"/>
+    <path d="M517 90h88l52 102h-71l-9-25h-42l-9 25h-61zm51 70-13-39-14 39z"/>
+    <path d="M634 91a14 14 0 1 1 0 28 14 14 0 0 1 0-28zm0 4a10 10 0 1 0 0 20 10 10 0 0 0 0-20z"/>
+    <path d="M628 101h7c4 0 6 2 6 5 0 2-1 4-3 4l4 6h-5l-3-5h-2v5h-4zm4 3v4h3c1 0 2-1 2-2s-1-2-2-2z"/>
+  </g>
+</svg>
