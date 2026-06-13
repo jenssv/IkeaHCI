@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>IKEA Indonesia - Demo Website Furnitur</title>
+    <link rel="preconnect" href="https://images.unsplash.com" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <button class="menu-toggle" type="button" aria-label="Buka menu" data-menu-toggle aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <a class="brand" href="#home" aria-label="Kembali ke beranda">
+        <img class="brand-logo" src="../work/images.png" alt="IKEA" />
+      </a>
+      <form class="search" role="search" data-search-form>
+        <input type="search" placeholder="Cari ..." data-search-input />
+      </form>
+      <nav class="header-icons" aria-label="Aksi pengguna">
+        <a href="#home" aria-label="Akun">♙</a>
+        <a href="#products" aria-label="Favorit">♡</a>
+        <a class="cart-pill" href="#checkout" aria-label="Lihat keranjang">▱ <strong data-cart-count>0</strong></a>
+      </nav>
+    </header>
+
+    <div class="drawer-backdrop" data-drawer-backdrop hidden></div>
+    <aside class="side-drawer" data-main-nav aria-hidden="true">
+      <div class="drawer-head">
+        <button class="drawer-close" type="button" aria-label="Tutup menu" data-drawer-close>×</button>
+        <a class="brand" href="#home" aria-label="Kembali ke beranda">
+          <img class="brand-logo" src="../work/images.png" alt="IKEA" />
+        </a>
+      </div>
+      <nav class="drawer-nav">
+        <a href="#products">Produk</a>
+        <a href="#categories">Ruangan</a>
+        <a href="#home">Inspirasi</a>
+        <a href="#home">Layanan Desain</a>
+        <a href="#checkout">Lacak Pengiriman</a>
+        <a href="#home">Informasi Toko</a>
+      </nav>
+      <a class="drawer-login" href="#home">Masuk atau Daftar</a>
+    </aside>
+
+    <main id="app" class="app" tabindex="-1"></main>
+
+    <footer class="site-footer">
+      <section>
+        <h2>Aplikasi IKEA Indonesia</h2>
+        <p>Gabung IKEA Family, simpan daftar belanja, dan temukan inspirasi ruangan dari mana saja.</p>
+      </section>
+      <section class="footer-grid">
+        <div>
+          <h3>Tautan berguna</h3>
+          <a href="#categories">Daftar kategori</a>
+          <a href="#products">Produk terbaru</a>
+          <a href="#checkout">Lacak pesanan</a>
+        </div>
+        <div>
+          <h3>Layanan</h3>
+          <a href="#home">Desain interior</a>
+          <a href="#home">Pengiriman</a>
+          <a href="#home">Perakitan</a>
+        </div>
+        <div>
+          <h3>Pembayaran</h3>
+          <p>Visa, Mastercard, transfer bank, dan pembayaran di tempat tersedia pada simulasi checkout.</p>
+        </div>
+      </section>
+      <p class="fine-print">Demo pembelajaran yang terinspirasi dari struktur IKEA Indonesia. Bukan situs resmi IKEA.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
